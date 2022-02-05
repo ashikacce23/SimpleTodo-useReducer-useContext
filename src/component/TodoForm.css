@@ -1,0 +1,44 @@
+.form_section {
+  width: 100%;
+}
+.input_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_group input {
+  height: 30px;
+  width: 60%;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  color: gray;
+  padding: 3px 5px;
+}
+
+.input_group button {
+  background-color: rgb(255, 187, 0);
+  color: black;
+  padding: 6px 10px;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.input_group button:hover {
+  background-color: black;
+  color: rgb(255, 187, 0);
+}
+@media screen and (min-width: 700px) {
+  .input_group input {
+    height: 30px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 990px) {
+  .input_group input {
+    height: 30px;
+    width: 40%;
+  }
+}
